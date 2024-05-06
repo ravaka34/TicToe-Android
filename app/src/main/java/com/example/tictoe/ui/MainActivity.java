@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main_activity);
         Button[] cases = getCases();
         Player player1 = new Player("\uD83D\uDE02");
-        Player player2 = new Player("\uD83E\uDD79");
+        Player player2 = new Player("\uD83D\uDE0D");
         TextView scoreView = (TextView) findViewById(R.id.scoreView);
         Board board = new Board(cases, player1, player2, scoreView);
     }

@@ -80,6 +80,8 @@ public class Board {
      * make all the button clickable and remove all emojis on it
      */
     public void replay() {
+        clickableButtonLeft = 9;
+        currentPlayer = player1;
         for (Button btn : cases
              ) {
             btn.setText("");
